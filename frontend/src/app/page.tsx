@@ -4,7 +4,12 @@ import classes from "./page.module.css";
 export default function Home() {
   return (
     <main className={classes.wrapper}>
-      
+      <div className={classes.left}>
+
+      </div>
+      <div className={classes.right}>
+
+      </div>
     </main>
   );
 }

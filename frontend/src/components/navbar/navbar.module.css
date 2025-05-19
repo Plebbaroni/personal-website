@@ -1,0 +1,34 @@
+.wrapper {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 75px;
+    width: 75px;
+    margin-left: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+  }
+
+.link:focus,
+.link:active {
+    outline: none;
+    box-shadow: none;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-left: auto;
+    color: #5bc908;
+    font-weight: 100;
+}

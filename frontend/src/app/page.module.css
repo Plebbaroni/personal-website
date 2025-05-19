@@ -1,5 +1,6 @@
 .wrapper {
-  height: 100vh;
+  height: calc(100vh-100px);
   width: 100vw;
   overflow: hidden;
+  background-color: #1a1b26;
 }
