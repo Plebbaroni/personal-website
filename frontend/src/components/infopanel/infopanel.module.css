@@ -1,0 +1,45 @@
+.wrapper {
+    width: 25vw;
+    height: 95%;
+    background-color: #24283b;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #1d1e2f;
+}
+
+.meimg {
+    border-radius: 15px 15px 0px 0px;
+    border: 1px solid #1d1e2f;
+}
+
+.imgwrapper {
+    position: relative;
+    height: 200px;
+    width: 100%;
+}
+
+.greeting {
+    display: inline;
+    font-size: 16px;
+    color: #C0CAf5;
+}
+
+.name {
+    color: #5bc908;
+    margin: 0;
+}
+
+@media (min-height: 900px) {
+    .imgwrapper {
+        height: 30vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .greeting {
+        font-size: 22px;
+    }
+}
