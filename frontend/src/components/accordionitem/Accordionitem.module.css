@@ -1,0 +1,22 @@
+.masterwrapper{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+}
+
+.headerwrapper {
+    display: flex;
+    border: 1px solid #2f334d;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.icon {
+    color: #5bc908;
+    margin: 5px;
+}
+.title {
+    font-size: 16px;
+    color: #5bc908;
+    font-weight: 100;
+}

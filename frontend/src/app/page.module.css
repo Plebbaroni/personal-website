@@ -3,6 +3,7 @@
   width: 100vw;
   overflow: hidden;
   background-color: #1a1b26;
+  display: flex;
 }
 
 .left {
@@ -11,4 +12,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.right {
+  overflow-y: scroll;
+  width:70vw;
+  padding: 1%;
+  padding-top: 0;
 }

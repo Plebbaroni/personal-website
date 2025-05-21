@@ -1,6 +1,7 @@
-import Image from "next/image";
+// import Image from "next/image";
 import classes from "./page.module.css";
 import Infopanel from "@/components/infopanel/Infopanel";
+import Accordion from "@/components/accordion/Accordion";
 export default function Home() {
   return (
     <main className={classes.wrapper}>
@@ -8,7 +9,7 @@ export default function Home() {
         <Infopanel/>
       </div>
       <div className={classes.right}>
-
+        <Accordion/>
       </div>
     </main>
   );
