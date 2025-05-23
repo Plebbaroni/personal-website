@@ -11,4 +11,5 @@ html, body {
     font-family: 'Cascadia Code', monospace;
     margin: 0;
     background-color: #1a1b26;
+    height: 100%;
 }

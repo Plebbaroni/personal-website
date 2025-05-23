@@ -1,0 +1,28 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-height: 0;
+}
+
+.category {
+    color: #C0CAf5;
+}
+
+.latestpostswrapper {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    width: 100%;
+}
+
+.latestposts {
+    height: 93.5%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #2f334d;
+    border-radius: 15px;
+    color: #5bc908;
+}

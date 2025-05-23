@@ -23,8 +23,8 @@ function Accordionitem(props:accordionProps) {
         <Image src={props.imglink} alt="greenicon" className={classes.meimg} fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
       </div>
       <div className={classes.links}>
-        <p>[github]</p>
-        <p>[live demo]</p>
+        <a href={props.githublink} className={classes.link}><p>[github]</p></a>
+        <a href={props.deployedlink} className={classes.link}><p>[live demo]</p></a>
       </div>
     </div>
   )

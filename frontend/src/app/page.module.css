@@ -16,7 +16,10 @@
 
 .right {
   overflow-y: scroll;
+  height: 100%;
   width:70vw;
   padding: 1%;
   padding-top: 0;
+  display: flex;
+  flex-direction: column;
 }

@@ -5,6 +5,7 @@
     width: 30%;
     border: 1px solid #2f334d;
     border-radius: 15px;
+    height: 35vh;
 }
 
 .headerwrapper {
@@ -32,10 +33,30 @@
 
 .links {
     display: flex;
+    flex: 1;
     width: 100%;
     justify-content: space-evenly;
+    align-items: center;
     color: #a9b1d6;
 }
+
+.link {
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+}
+
+.link:focus,
+.link:active {
+    outline: none;
+    background: none;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #5bc908;
+}
+
 @media (min-height: 900px) {
     .imgwrapper {
         height: 250px;

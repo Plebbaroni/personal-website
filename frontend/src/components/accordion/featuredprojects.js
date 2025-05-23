@@ -18,7 +18,7 @@ const projects = [
     {
         title: 'Portfolio Website',
         description: 'My personal website. Built with Next.js.',
-        sample: '/screenshots/pyramids.png',
+        sample: '/screenshots/site2.png',
         image: '/icons/greenicon.png',
         githublink: 'https://github.com/Plebbaroni/personal-website',
         deployedlink: 'https://jaredschulz.dev/'
