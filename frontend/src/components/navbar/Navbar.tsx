@@ -2,7 +2,7 @@ import React from 'react'
 import classes from './navbar.module.css'
 import Link from 'next/link';
 import Image from 'next/image';
-function navbar() {
+function Navbar() {
   return (
     <div className={classes.wrapper}>
         <div className={classes.logowrapper}>
@@ -19,4 +19,4 @@ function navbar() {
   )
 }
 
-export default navbar
+export default Navbar
