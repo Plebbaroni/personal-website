@@ -8,12 +8,12 @@
   }
   
 html, body {
-    font-family: 'Cascadia Code', monospace;
-    margin: 0;
-    background-color: #1a1b26;
-    height: 100%;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+  font-family: 'Cascadia Code', monospace;
+  margin: 0;
+  background-color: #1a1b26;
+  height: 100%;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
