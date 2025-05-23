@@ -7,6 +7,7 @@ type accordionProps = {
     githublink: string;
     deployedlink:string;
     imglink:string;
+    iconlink:string;
     isOpen: boolean;
     onClick: () => void;
   };
@@ -15,16 +16,16 @@ function Accordionitem(props:accordionProps) {
   return (
     <div className={classes.masterwrapper}>
       <div className={classes.headerwrapper}>
-        <Image src={props.imglink} alt="greenicon" className={classes.icon} width={40} height={40}/>
+        <Image src={props.iconlink} alt="greenicon" className={classes.icon} width={40} height={40}/>
         <h4 className={classes.title}>{props.title}</h4>
       </div>
-    {
-      props.isOpen && (
-        <div className={classes.project}>
-          <p></p>
-        </div>
-      )
-    }
+      <div className={classes.imgwrapper}>
+        <Image src={props.imglink} alt="greenicon" className={classes.meimg} fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
+      </div>
+      <div className={classes.links}>
+        <p>[github]</p>
+        <p>[live demo]</p>
+      </div>
     </div>
   )
 }

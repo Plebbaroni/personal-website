@@ -19,7 +19,8 @@ function Accordion() {
             key={index}
             title={project.title}
             description={project.description}
-            imglink={project.image}
+            imglink={project.sample}
+            iconlink={project.image}
             githublink={project.githublink}
             deployedlink={project.deployedlink}
             isOpen={openIndex === index}

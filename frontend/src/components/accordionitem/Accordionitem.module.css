@@ -3,12 +3,13 @@
     flex-direction: column;
     margin-bottom: 1%;
     width: 30%;
+    border: 1px solid #2f334d;
+    border-radius: 15px;
 }
 
 .headerwrapper {
     display: flex;
-    border: 1px solid #2f334d;
-    border-radius: 15px 15px 1px 1px;
+    border-bottom: 1px solid #2f334d;
     align-items: center;
 }
 
@@ -20,4 +21,23 @@
     font-size: 16px;
     color: #5bc908;
     font-weight: 100;
+}
+
+.imgwrapper {
+    height: 150px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.links {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #a9b1d6;
+}
+@media (min-height: 900px) {
+    .imgwrapper {
+        height: 250px;
+    }
 }
